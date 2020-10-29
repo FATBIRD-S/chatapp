@@ -1,11 +1,11 @@
-####技术栈
+#### 技术栈
 - 主要使用 express + mongoose + socket.io
 - 邮件发送 采用插件nodemailer https://nodemailer.com/about/
 - 图片文件存储  使用multer https://www.expressjs.com.cn/en/resources/middleware/multer.html
 - token的生成 解码 jsonwebtoken  https://www.npmjs.com/package/jsonwebtoken
 - 密码加密 解密  bcryptjs   https://www.npmjs.com/package/bcryptjs
 
-####文档结构
+#### 文档结构
 - config 邮箱 数据库设置引用
 - data 文件存储目录
 - dbo 
@@ -18,3 +18,6 @@
 - model 数据库模式类型设置 定义数据结构
 - router 路由设置
 - server 前端数据预处理
+
+
+#### 目前后端为了测试已部署到服务器 地址查看接口文档
